@@ -81,7 +81,7 @@ if(file.endsWith(".jpeg")){
 
 
 8
-let phoneNumber = prompt("Enter Phonenumber".trim());
+let phoneNumber = prompt("Enter Phonenumber").trim();
 if(phoneNumber.length >= 11 && phoneNumber.startsWith("0")){
         console.log("Valid phone number");
     }
@@ -90,7 +90,7 @@ else{
 } 
 
 9
-let forbidden = prompt("Enter Word".toLowerCase());
+let forbidden = prompt("Enter Word").toLowerCase();
 console.log(forbidden.replaceAll("bad", "good").replaceAll("spam", "send"));
 
 
