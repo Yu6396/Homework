@@ -5,7 +5,7 @@ if (
   email.includes(".") &&
   email.indexOf("@") > 0 &&
   email.indexOf(".") > email.indexOf("@") + 1 &&
-  email.indexOf(".") < email.length - 1
+  email.lastIndexOf(".") < email.length - 1
 ) {
   console.log("valid email");
 } else {
@@ -81,7 +81,7 @@ if(file.endsWith(".jpeg")){
 
 
 8
-let phoneNumber = prompt("Enter Phonenumber").trim();
+let phoneNumber = ("Enter Phonenumber").trim();
 if(phoneNumber.length >= 11 && phoneNumber.startsWith("0")){
         console.log("Valid phone number");
     }
@@ -92,6 +92,21 @@ else{
 9
 let forbidden = prompt("Enter Word").toLowerCase();
 console.log(forbidden.replaceAll("bad", "good").replaceAll("spam", "send"));
+
+
+10
+let score = prompt("Enter Your Score");
+if(score <= "75" && score <= "100"){
+    console.log("Grade A");
+}else if("60" <= score && score <="70"){
+    console.log("Grade B");
+}else if("50" <= score&& score <= "60"){
+    console.log("Grade C");
+}else if(score <= "50"){
+    console.log("Retake The Exam");
+}else{
+    console.log("Invalid Score");
+} 
 
 
 
