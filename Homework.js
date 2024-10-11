@@ -98,33 +98,3 @@
 // } else {
 //   console.log("Invalid Score");
 // }
-
-// let program = "sleep in the jeep"
-// let first = ""
-// for(let i = 0;i <= program.length; i++){
-//     if(program.charAt(i) === "e"){
-//         first = first + program.charAt(i)
-        
-//     }else{
-//         break;
-//     }
-//     console.log(first)
-//     }
-    
-// program.includes("u")
-
-
-    
-// let guess = prompt("write guess")
-// let rightGuess= "1073"
-// for(let i = 0;i >= 4; i++){
-//     if(guess === rightGuess){
-//         console.log("Congratulations! You got it right.")
-//         break;
-//     }else{
-//         guess = prompt("Wrong guess. Try again.")
-//     }
-
-
-// }
-   
